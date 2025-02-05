@@ -71,7 +71,7 @@ export default function CreatePost() {
       <UnderwaterEffects />
       <FishAnimation />
       <div className="container mx-auto px-4 py-8 relative z-30">
-        <h1 className="text-5xl font-bold text-center mb-8 animate-pulse">Create Your Deep Sea Face</h1>
+        <h1 className="text-5xl font-bold text-center mb-8 animate-pulse">Find Your Deep Fish</h1>
         {!preview && (
           <Card className="bg-blue-900 bg-opacity-50 border-blue-700 shadow-lg backdrop-blur-sm">
             <CardContent className="p-6">
@@ -97,10 +97,10 @@ export default function CreatePost() {
               {isLoading ? (
                 <>
                   <Loader className="animate-spin mr-3 w-6 h-6" />
-                  Transforming...
+                  searching...
                 </>
               ) : (
-                "Transform"
+                "Find Shinkaigyo"
               )}
             </Button>
           </div>
